@@ -1,8 +1,26 @@
-# beautify_every_beauty  :dress:
+<div align="center">
+
+美每美
+
+BEAUTIFY_EVERY_BEAUTY
+
+
+[中文](https://github.com/Tshiyao/beautify_every_beauty/blob/main/README.md)
+
+
+
+</div>
+
+## 目录
+
+- [项目简介 :blush:](#项目简介-blush)
+- [项目架构 :sunglasses:](#项目架构-sunglasses)
+
+
 
 # 项目简介 :blush:
 
-beautify_every_beauty是基于书生大模型InternLM的专属穿搭妆容助手。
+美每美是基于书生大模型InternLM的专属穿搭妆容助手。
 
 - 通过Lagent实现信息获取助手，实时从各类数据源中获取最新潮流信息、气候温度情况以及用户个人信息，以形成最新最潮的个性化数据。
 
@@ -23,5 +41,5 @@ beautify_every_beauty是基于书生大模型InternLM的专属穿搭妆容助手
 
 # 项目架构 :sunglasses:
 
-![alt text](static/架构图.png)
+![alt text](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
