@@ -1,6 +1,6 @@
 <div align="center">
 
-![封面](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg)
+![封面from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg)
 
 美每美
 
@@ -62,5 +62,3 @@ BEAUTIFY_EVERY_BEAUTY
 # 特别鸣谢
 
 感谢书生实战营
-
-感谢豆包（封面画的挺好的）
