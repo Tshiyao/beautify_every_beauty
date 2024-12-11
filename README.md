@@ -17,7 +17,12 @@ BEAUTIFY_EVERY_BEAUTY
 
 ## 目录
 
+<div align="center">
+
 ![封面from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg)
+
+</div>
+
 
 - [项目简介 :blush:](#项目简介-blush)
 - [项目架构 :sunglasses:](#项目架构-sunglasses)
