@@ -1,5 +1,7 @@
 <div align="center">
 
+  <img src="(https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg" />
+
 美每美
 
 BEAUTIFY_EVERY_BEAUTY
@@ -38,6 +40,8 @@ BEAUTIFY_EVERY_BEAUTY
 - 使用Lagent构建助手，提供穿搭咨询，每日潮流推荐，穿搭妆容推荐，穿搭妆容评价。
 
 - 后续拟开展一键换衣，虚拟衣柜等功能，敬请期待
+
+美每美作为一个基于先进AI技术的穿搭妆容助手，其工作流程和技术应用展示了一个高度智能化和个性化的服务系统。以下是对您描述的系统功能的详细解读和未来展望：
 
 
 # 项目架构 :sunglasses:
