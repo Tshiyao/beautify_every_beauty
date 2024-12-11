@@ -15,7 +15,8 @@ BEAUTIFY_EVERY_BEAUTY
 
 - [项目简介 :blush:](#项目简介-blush)
 - [项目架构 :sunglasses:](#项目架构-sunglasses)
-
+- [数据准备](#数据准备)
+- [模型微调](#模型微调)
 
 
 # 项目简介 :blush:
@@ -43,3 +44,11 @@ BEAUTIFY_EVERY_BEAUTY
 
 ![alt text](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
+# 数据准备
+1. 数据获取
+   
+爬取网上的文章、评论、图片，包括各种服装、美妆、服装配饰等。
+
+1. 数据清洗
+
+# 模型微调
