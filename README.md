@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="(https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg" />
+[封面](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg)
 
 美每美
 
