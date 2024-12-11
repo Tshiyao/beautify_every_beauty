@@ -7,7 +7,7 @@
 BEAUTIFY_EVERY_BEAUTY
 
 
-[中文](https://github.com/Tshiyao/beautify_every_beauty/blob/main/README.md)
+![封面](https://github.com/Tshiyao/beautify_every_beauty/blob/main/README.md)
 
 
 
@@ -46,7 +46,7 @@ BEAUTIFY_EVERY_BEAUTY
 
 # 项目架构 :sunglasses:
 
-![alt text](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![架构图](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/架构图.png)
 
 # 数据准备
 1. 数据获取
