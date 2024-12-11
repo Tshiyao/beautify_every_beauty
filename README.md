@@ -2,7 +2,7 @@
 
 美每美
 
-![lodo from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/logo.png)
+![lodo from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/LOGO.png)
 
 
 
