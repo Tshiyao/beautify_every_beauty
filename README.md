@@ -2,24 +2,32 @@
 
 美每美
 
+![lodo from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/logo.png)
 
-![封面from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg)
+
 
 BEAUTIFY_EVERY_BEAUTY
 
 
 [中文](https://github.com/Tshiyao/beautify_every_beauty/blob/main/README.md)
 
-
+[![Models](https://img.shields.io/badge/-gery?style=social&label=BEAUTIFY_EVERY_BEAUTY✨V0)](https://www.modelscope.cn/models/)
 
 </div>
 
 ## 目录
 
+![封面from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg)
+
 - [项目简介 :blush:](#项目简介-blush)
 - [项目架构 :sunglasses:](#项目架构-sunglasses)
-- [数据准备](#数据准备)
-- [模型微调](#模型微调)
+- [更新说明](#更新说明)
+- [使用指南](#使用指南)
+  - [1. 数据准备](#1-数据准备)
+  - [2. 模型微调](#2-模型微调)
+  - [3. 模型部署](#3-模型部署)
+  - [4. 模型地址](#4-模型地址)
+- [演示视频](#演示视频)
 - [特别鸣谢](#特别鸣谢)
 
 
@@ -43,21 +51,41 @@ BEAUTIFY_EVERY_BEAUTY
 
 - 后续拟开展一键换衣，虚拟衣柜等功能，敬请期待
 
-美每美作为一个基于先进AI技术的穿搭妆容助手，其工作流程和技术应用展示了一个高度智能化和个性化的服务系统。以下是对您描述的系统功能的详细解读和未来展望：
-
 
 # 项目架构 :sunglasses:
 
 ![架构图](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/架构图.png)
 
-# 数据准备
+# 更新说明
+
+- **敬请期待...**
+
+- [ ] 微调图文模型，形成穿搭妆容评价能力
+
+- [ ] 根据用户信息进行，穿搭妆容推荐
+
+- [ ] 实时获取潮流推荐
+
+- [2024/12/11] BEAUTIFY_EVERY_BEAUTY✨V0发布
+
+# 使用指南
+## 1. 数据准备
 1. 数据获取
    
 爬取网上的文章、评论、图片，包括各种服装、美妆、服装配饰等。
 
 1. 数据清洗
 
-# 模型微调
+## 2. 模型微调
+
+## 3. 模型部署
+
+## 4. 模型地址
+
+# 演示视频
+
+
+
 
 
 # 特别鸣谢
