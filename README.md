@@ -19,6 +19,7 @@ BEAUTIFY_EVERY_BEAUTY
 - [项目架构 :sunglasses:](#项目架构-sunglasses)
 - [数据准备](#数据准备)
 - [模型微调](#模型微调)
+- [特别鸣谢](#特别鸣谢)
 
 
 # 项目简介 :blush:
@@ -56,3 +57,10 @@ BEAUTIFY_EVERY_BEAUTY
 1. 数据清洗
 
 # 模型微调
+
+
+# 特别鸣谢
+
+感谢书生实战营
+
+感谢豆包（封面画的挺好的）
