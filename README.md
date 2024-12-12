@@ -2,7 +2,7 @@
 
 美每美
 
-![lodo from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/LOGO.png)
+![lodo from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/pic/LOGO.png)
 
 
 
@@ -19,7 +19,7 @@ BEAUTIFY_EVERY_BEAUTY
 
 <div align="center">
 
-![封面from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/封面.jpeg)
+![封面from豆包](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/pic/封面.jpeg)
 
 </div>
 
@@ -59,7 +59,7 @@ BEAUTIFY_EVERY_BEAUTY
 
 # 项目架构 :sunglasses:
 
-![架构图](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/架构图.png)
+![架构图](https://github.com/Tshiyao/beautify_every_beauty/blob/main/static/pic/架构图.png)
 
 # 更新说明
 

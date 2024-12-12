@@ -6,9 +6,9 @@ WORKER_BASE_PORT=11160
 
 PYTHON_EXECUTABLE=$(which python3)
 
-MODEL_BASE=/hpc2ssd/JH_DATA/spooler/qxiao183/workspace/hf_models/
+MODEL_BASE=/root/finetune/work_dirs/assistTuner/
 CUDA_DEVICE_BASE=0
-POLICY_MODEL_NAME=peiyi9979/mistral-7b-sft
+POLICY_MODEL_NAME=beb
 
 MODEL_PATH=$MODEL_BASE/$POLICY_MODEL_NAME
 
