@@ -4,6 +4,7 @@ import os
 # 获取特定环境变量的值
 # 与vllm部署的网络参数一致
 # 配置参数
+
 port = os.environ.get("BEB_PORT")
 url = os.environ.get("BEB_URL")
 password = os.environ.get("BEB_PASSWORD")
