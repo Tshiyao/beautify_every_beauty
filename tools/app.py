@@ -22,6 +22,9 @@ from openai import OpenAI
 import tools.port_mapping
 import base64
 
+from dataclasses import asdict, dataclass
+
+
 # Set OpenAI's API key and API base to use vLLM's API server.
 openai_api_key = "beb"
 openai_api_base = "http://localhost:8000/v1"
@@ -30,6 +33,26 @@ client = OpenAI(
     api_key=openai_api_key,
     base_url=openai_api_base,
 )
+
+
+@dataclass
+class GenerationConfig:
+    # this config is used for chat to provide more diversity
+    max_length: int = 32768
+    top_p: float = 1.0
+    temperature: float = 0.7
+
+
+def prepare_generation_config():
+    with st.sidebar:
+        max_length = st.slider("Max Length", min_value=8, max_value=32768, value=32768)
+        top_p = st.slider("Top P", 0.0, 1.0, 1.0, step=0.01)
+        temperature = st.slider("Temperature", 0.0, 1.0, 0.7, step=0.01)
+        st.button("Clear Chat History", on_click=on_btn_click)
+
+    generation_config = GenerationConfig(max_length=max_length, top_p=top_p, temperature=temperature)
+
+    return generation_config
 
 
 def set_background_image(image_file):
@@ -51,7 +74,7 @@ def set_background_image(image_file):
 
 
 # 新的 generate_interactive 函数，使用 OpenAI API
-def generate_openai_response(prompt):
+def generate_openai_response(prompt, config):
     response = client.chat.completions.create(
         model=model_name,
         messages=[
@@ -59,6 +82,9 @@ def generate_openai_response(prompt):
             {"role": "user", "content": prompt},
         ],
         stream=True,
+        max_tokens=config.max_length,
+        temperature=config.temperature,
+        top_p=config.top_p,
     )
     return response
 
@@ -95,7 +121,7 @@ def main():
     st.title("美每美")
 
     print("START!")
-
+    generation_config = prepare_generation_config()
     with st.sidebar:
         st.button("Clear Chat History", on_click=on_btn_click)
 
@@ -122,7 +148,7 @@ def main():
         with st.chat_message("robot", avatar="assistant"):
 
             message_placeholder = st.empty()
-            response_stream = generate_openai_response(real_prompt)
+            response_stream = generate_openai_response(real_prompt, **asdict(generation_config))
 
             cur_text = ""
             for cur_response in response_stream:
