@@ -146,7 +146,7 @@ def main():
         with st.chat_message("robot", avatar="assistant"):
 
             message_placeholder = st.empty()
-            response_stream = generate_openai_response(real_prompt, **asdict(generation_config))
+            response_stream = generate_openai_response(real_prompt, generation_config)
 
             cur_text = ""
             for cur_response in response_stream:
