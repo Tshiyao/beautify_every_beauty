@@ -91,7 +91,7 @@ def combine_history(prompt):
 
 
 def main():
-    set_background_image("./static/pic/封面.jpeg")
+    # set_background_image("./static/pic/封面.jpeg")
     st.title("美每美")
 
     print("START!")

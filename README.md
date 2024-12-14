@@ -11,7 +11,13 @@ BEAUTIFY_EVERY_BEAUTY
 
 [中文](https://github.com/Tshiyao/beautify_every_beauty/blob/main/README.md)
 
-[![Models](https://img.shields.io/badge/-gery?style=social&label=BEAUTIFY_EVERY_BEAUTY✨V0)](https://www.modelscope.cn/models/)
+探索模型：
+
+[![Models](https://img.shields.io/badge/-gery?style=social&label=BEAUTIFY_EVERY_BEAUTY✨V0)](https://modelscope.cn/models/Tshiyao/beb)
+[![Models](https://img.shields.io/badge/-gery?style=social&label=BEAUTIFY_EVERY_BEAUTY_7b✨V0)](https://modelscope.cn/models/Tshiyao/beb_7b)
+
+
+
 
 </div>
 
@@ -71,8 +77,14 @@ BEAUTIFY_EVERY_BEAUTY
 
 - [ ] 实时获取潮流推荐
 
-- [2024/12/11] BEAUTIFY_EVERY_BEAUTY✨V0发 
+- [20224/11] 模型部署
+  
+- [2024/12/11] [BEAUTIFY_EVERY_BEAUTY_7b](https://modelscope.cn/models/Tshiyao/beb_7b)✨V0发布
+  - 基于internlm2_5-7b-chat
+
+- [2024/12/11] [BEAUTIFY_EVERY_BEAUTY](https://modelscope.cn/models/Tshiyao/beb)✨V0发布
   - 基于internlm2_5-20b-chat
+
 
 # 使用指南
 ## 1. 数据准备
