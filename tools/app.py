@@ -118,7 +118,7 @@ def combine_history(prompt):
 
 def main():
     # set_background_image("./static/pic/封面.jpeg")
-    st.title("BEAUTIFY_EVERY_BEAUTY")
+    st.title("BEAUTIFY EVERY BEAUTY")
 
     print("START!")
     generation_config = prepare_generation_config()
