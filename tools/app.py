@@ -122,8 +122,6 @@ def main():
 
     print("START!")
     generation_config = prepare_generation_config()
-    with st.sidebar:
-        st.button("Clear Chat History", on_click=on_btn_click)
 
     # Initialize chat history
     if "messages" not in st.session_state:
