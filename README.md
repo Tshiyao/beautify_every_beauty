@@ -71,7 +71,8 @@ BEAUTIFY_EVERY_BEAUTY
 
 - [ ] 实时获取潮流推荐
 
-- [2024/12/11] BEAUTIFY_EVERY_BEAUTY✨V0发布
+- [2024/12/11] BEAUTIFY_EVERY_BEAUTY✨V0发 
+  - 基于internlm2_5-20b-chat
 
 # 使用指南
 ## 1. 数据准备

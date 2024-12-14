@@ -16,8 +16,6 @@ Using `python path/to/web_demo.py` may cause unknown problems.
 """
 
 # isort: skip_file
-
-
 import copy
 import warnings
 from dataclasses import asdict, dataclass
@@ -32,7 +30,8 @@ from transformers.utils import logging
 from transformers import AutoTokenizer, AutoModelForCausalLM  # isort: skip
 
 logger = logging.get_logger(__name__)
-model_name_or_path = "/root/finetune/models/internlm2-chat-7b"
+# model_name_or_path="/root/finetune/models/internlm2-chat-7b"
+model_name_or_path = "/root/beb"
 
 
 @dataclass
