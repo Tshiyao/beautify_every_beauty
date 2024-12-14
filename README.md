@@ -95,13 +95,17 @@ BEAUTIFY_EVERY_BEAUTY
 
 - [ ] 微调图文模型，形成穿搭妆容评价能力
 
-- [20224/12/14] 模型部署
+- [2024/12/14] 应用部署
+  - [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://beta.openxlab.org.cn/apps/detail/mmpose/RTMPose)
+
   
 - [2024/12/14] [BEAUTIFY_EVERY_BEAUTY_7b](https://modelscope.cn/models/Tshiyao/beb_7b)✨V0发布
   - 基于internlm2_5-7b-chat
+  - [![Models](https://img.shields.io/badge/-gery?style=social&label=BEAUTIFY_EVERY_BEAUTY_7b✨V0)](https://modelscope.cn/models/Tshiyao/beb_7b)
 
 - [2024/12/11] [BEAUTIFY_EVERY_BEAUTY](https://modelscope.cn/models/Tshiyao/beb)✨V0发布
   - 基于internlm2_5-20b-chat
+  - [![Models](https://img.shields.io/badge/-gery?style=social&label=BEAUTIFY_EVERY_BEAUTY✨V0)](https://modelscope.cn/models/Tshiyao/beb)
 
 
 # 使用指南
@@ -122,31 +126,41 @@ BEAUTIFY_EVERY_BEAUTY
 
 ## 2. 模型微调
 
-使用Xtuner，具体请参考[Xtuner](hhttps://github.com/InternLM/xtuner)。
+- 使用Xtuner，具体请参考[Xtuner](hhttps://github.com/InternLM/xtuner)。
 
 ## 3. 模型部署
 
+- 直接使用
+  
+  目前以及部署在[OpenXLab](https://beta.openxlab.org.cn/apps/detail/mmpose/RTMPose)
 
-本地部署
+  [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://beta.openxlab.org.cn/apps/detail/mmpose/RTMPose)
 
-```bash
-sh scripts/vllm_start.sh
-streamlit run streamlit_demo.py
-```
+  欢迎大家试用，期待您的宝贵意见~
 
-使用api部署
+- 自己部署
+  
+  本地部署
 
-```bash
-streamlit run tools/app.py
-```
+  ```bash
+  sh scripts/start_beb.sh
+  streamlit run streamlit_demo.py
+  ```
+
+  使用api部署
+
+  ```bash
+  streamlit run tools/app.py
+  ```
 
 ## 4. 模型地址
 
-目前已经发布两款模型，欢迎使用。
-- [BEAUTIFY_EVERY_BEAUTY_7b](https://modelscope.cn/models/Tshiyao/beb_7b)✨V0
+- 目前已经发布两款模型，欢迎使用。
+  - [BEAUTIFY_EVERY_BEAUTY_7b](https://modelscope.cn/models/Tshiyao/beb_7b)✨V0
+
+  - [BEAUTIFY_EVERY_BEAUTY](https://modelscope.cn/models/Tshiyao/beb)✨V0
 
 
-- [BEAUTIFY_EVERY_BEAUTY](https://modelscope.cn/models/Tshiyao/beb)✨V0
 # 演示视频
 
 
