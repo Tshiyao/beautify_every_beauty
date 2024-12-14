@@ -1,5 +1,5 @@
 openai
 pexpect
 streamlit
-# torch==2.2.2
-# transformers==4.39.2
+# torch
+# transformers
