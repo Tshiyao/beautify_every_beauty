@@ -16,7 +16,9 @@ BEAUTIFY_EVERY_BEAUTY
 [![Models](https://img.shields.io/badge/-gery?style=social&label=BEAUTIFY_EVERY_BEAUTY✨V0)](https://modelscope.cn/models/Tshiyao/beb)
 [![Models](https://img.shields.io/badge/-gery?style=social&label=BEAUTIFY_EVERY_BEAUTY_7b✨V0)](https://modelscope.cn/models/Tshiyao/beb_7b)
 
+探索应用：
 
+[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Liu_qihuang/BEAUTIFY_EVERY_BEAUTY)
 
 
 </div>
