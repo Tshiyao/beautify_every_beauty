@@ -42,7 +42,6 @@ def generate_openai_response(prompt):
         ],
         stream=True,
     )
-    print(response)
     return response
 
 
