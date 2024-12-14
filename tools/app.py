@@ -133,7 +133,7 @@ def main():
             st.markdown(message["content"])
 
     # Accept user input
-    if prompt := st.chat_input("What is up?"):
+    if prompt := st.chat_input("您今天更加美丽了~"):
         # Display user message in chat message container
 
         with st.chat_message("user", avatar="user"):
