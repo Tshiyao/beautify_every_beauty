@@ -20,7 +20,7 @@ Using `python path/to/web_demo.py` may cause unknown problems.
 import streamlit as st
 from openai import OpenAI
 import tools.port_mapping
-
+import base64
 
 # Set OpenAI's API key and API base to use vLLM's API server.
 openai_api_key = "beb"
@@ -30,6 +30,22 @@ client = OpenAI(
     api_key=openai_api_key,
     base_url=openai_api_base,
 )
+
+
+def set_background_image(image_file):
+    with open(image_file, "rb") as f:
+        img_data = f.read()
+    b64_encoded = base64.b64encode(img_data).decode()
+    page_bg_img = f"""
+    <style>
+    body {{
+        background-image: url("data:image/jpeg;base64,{b64_encoded}");
+        background-size: cover;
+        opacity: 0.3;
+    }}
+    </style>
+    """
+    st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 # 新的 generate_interactive 函数，使用 OpenAI API
@@ -73,6 +89,7 @@ def combine_history(prompt):
 
 
 def main():
+    set_background_image(".\static\pic\封面.jpeg")
     st.title("美每美")
 
     print("START!")
