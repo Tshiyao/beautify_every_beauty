@@ -20,9 +20,9 @@ try:
 
     # 输入密码
     child.sendline(password)
-
+    print("success")
     # 保持连接
-    child.interact()
+    # child.interact()
 
 except pexpect.exceptions.EOF:
     print("连接失败，检查命令或服务器状态！")
