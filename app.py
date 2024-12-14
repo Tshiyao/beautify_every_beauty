@@ -19,6 +19,7 @@ Using `python path/to/web_demo.py` may cause unknown problems.
 # import openai
 import streamlit as st
 from openai import OpenAI
+import tools.port_mapping
 
 
 # Set OpenAI's API key and API base to use vLLM's API server.
