@@ -41,7 +41,9 @@ def set_background_image(image_file):
     body {{
         background-image: url("data:image/jpeg;base64,{b64_encoded}");
         background-size: cover;
-        opacity: 0.3;
+        background - position: center center;
+        background - attachment: fixed;
+        opacity: 0.5;
     }}
     </style>
     """
