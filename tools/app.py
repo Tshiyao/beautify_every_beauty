@@ -19,9 +19,10 @@ Using `python path/to/web_demo.py` may cause unknown problems.
 # import openai
 import streamlit as st
 from openai import OpenAI
-from tools.port_mapping import port_mapping
-import base64
 
+import base64
+import pexpect
+import os
 from dataclasses import asdict, dataclass
 
 
@@ -71,6 +72,30 @@ def set_background_image(image_file):
     </style>
     """
     st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
+def port_mapping():
+    port = os.environ.get("BEB_PORT")
+    url = os.environ.get("BEB_URL")
+    password = os.environ.get("BEB_PASSWORD")
+    command = f"ssh -CNg -L 8000:127.0.0.1:8000 root@{url} -p {port} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+    # 启动 ssh 连接
+    try:
+        child = pexpect.spawn(command)
+
+        # 等待密码提示
+        child.expect("password:")
+
+        # 输入密码
+        child.sendline(password)
+        print("success")
+        # 保持连接
+        # child.interact()
+
+    except pexpect.exceptions.EOF:
+        print("连接失败，检查命令或服务器状态！")
+    except pexpect.exceptions.TIMEOUT:
+        print("连接超时，请检查网络或服务器端口！")
 
 
 # 新的 generate_interactive 函数，使用 OpenAI API
