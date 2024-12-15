@@ -132,8 +132,8 @@ BEAUTIFY_EVERY_BEAUTY
 
 - 直接使用
   
-  目前以及部署在[OpenXLab](https://openxlab.org.cn/apps/detail/Liu_qihuang/BEAUTIFY_EVERY_BEAUTY)
-  
+  目前已经部署在[OpenXLab](https://openxlab.org.cn/apps/detail/Liu_qihuang/BEAUTIFY_EVERY_BEAUTY)
+
   [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Liu_qihuang/BEAUTIFY_EVERY_BEAUTY)
 
   欢迎大家试用，期待您的宝贵意见~
