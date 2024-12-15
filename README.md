@@ -23,7 +23,7 @@ BEAUTIFY_EVERY_BEAUTY
 
 </div>
 
-## 目录
+
 
 <div align="center">
 
@@ -31,6 +31,7 @@ BEAUTIFY_EVERY_BEAUTY
 
 </div>
 
+## 目录
 
 - [项目简介](#项目简介)
   - [美每美：引领时尚前沿的智能穿搭妆容助手](#美每美引领时尚前沿的智能穿搭妆容助手)
