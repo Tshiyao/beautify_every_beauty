@@ -96,7 +96,7 @@ BEAUTIFY_EVERY_BEAUTY
 - [ ] 微调图文模型，形成穿搭妆容评价能力
 
 - [2024/12/14] 应用部署
-  - [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://beta.openxlab.org.cn/apps/detail/mmpose/RTMPose)
+  - [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Liu_qihuang/BEAUTIFY_EVERY_BEAUTY)
 
   
 - [2024/12/14] [BEAUTIFY_EVERY_BEAUTY_7b](https://modelscope.cn/models/Tshiyao/beb_7b)✨V0发布
