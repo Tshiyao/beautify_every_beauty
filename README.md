@@ -164,13 +164,13 @@ BEAUTIFY_EVERY_BEAUTY
 
 # 演示视频
 
-介绍和演示视频已经发布在B站啦~
+- 介绍和演示视频已经发布在B站啦~
 
-欢迎大家点赞、投币、收藏~
+  欢迎大家点赞、投币、收藏~
 
-[美每美介绍](https://www.bilibili.com/video/BV162qoYbE35)
+  [美每美介绍](https://www.bilibili.com/video/BV162qoYbE35)
 
-期待一键三连~~~
+  期待一键三连~~~
 
 # 特别鸣谢
 
