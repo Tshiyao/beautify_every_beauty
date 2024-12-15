@@ -40,7 +40,7 @@ client = OpenAI(
 class GenerationConfig:
     # this config is used for chat to provide more diversity
     max_length: int = 32768
-    top_p: float = 1.0
+    top_p: float = 0.7
     temperature: float = 0.7
 
 
