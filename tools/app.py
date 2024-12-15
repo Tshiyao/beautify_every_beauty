@@ -19,7 +19,7 @@ Using `python path/to/web_demo.py` may cause unknown problems.
 # import openai
 import streamlit as st
 from openai import OpenAI
-import tools.port_mapping
+from tools.port_mapping import port_mapping
 import base64
 
 from dataclasses import asdict, dataclass
@@ -121,6 +121,7 @@ def main():
     st.title("BEAUTIFY EVERY BEAUTY")
 
     print("START!")
+    port_mapping()
     generation_config = prepare_generation_config()
 
     # Initialize chat history
