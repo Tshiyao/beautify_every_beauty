@@ -127,7 +127,7 @@ BEAUTIFY_EVERY_BEAUTY
 
 ## 2. 模型微调
 
-- 使用Xtuner，具体请参考[Xtuner](hhttps://github.com/InternLM/xtuner)。
+- 使用Xtuner，具体请参考[Xtuner](https://github.com/InternLM/xtuner)。
 
 ## 3. 模型部署
 
